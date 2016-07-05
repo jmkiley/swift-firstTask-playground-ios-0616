@@ -16,6 +16,8 @@
 */
 // write your code here
 
+var bankAccountBalance = Int()
+bankAccountBalance = 100
 
 
 
@@ -23,16 +25,14 @@
 ### 2. You went to your local pet store and purchased yourself a puppy. You decided to name the puppy Bella. Once you named her, that name will stick with her forever. Create a variable that stores the name of your new puppy.
 */
 // write your code here
-
-
+let puppyName = "Bella"
 
 
 /*: question3
 ### 3. Use the `print()` function to print the name of your new puppy to the console.
 */
 // write your code here
-
-
+print(puppyName)
 
 
 /*: question4
@@ -40,14 +40,14 @@
 */
 // write your code here
 
-
+print("I just got a new puppy named \(puppyName) and she is awesome!")
 
 
 /*: question5
 ### 5. Use the `print()` function to print the sentence "I have $<balance> in my bank account." to the console.
 */
 // write your code here
-
+print("I have $\(bankAccountBalance) in my bank account.")
 
 
 
@@ -55,15 +55,15 @@
 ### 6. Congratulations! You just got $100 for your birthday, so now you have $100 more in your bank account. Update your bank account with the new balance and print "I now have $<balance>." to the console.
 */
 // write your code here
-
-
+bankAccountBalance += 100
+print("I now have $\(bankAccountBalance).")
 
 
 /*: question7
 ### 7. You decided you don't like the name Bella. Change your puppy's name to something else. (Can you do this? What happens when you try? Why?)
 */
 // write your code here
-
+// I can't change puppyName from Bella because I made it a constant variable. I would need to change the let on line 28 to var. I also would have a confused puppy.
 
 
 
